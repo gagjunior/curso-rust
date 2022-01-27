@@ -1,7 +1,11 @@
 fn main() {
-    let name: &str = "Gilberto";
+   let number1 = 30;
+   let number2 = 10;
 
-    println!();
-    println!("Hello, {}!", name);
-    println!();
+   if number1 > number2 {
+       println!("Numero 1({}) é maior que o numero 2({})", number1, number2);
+    } 
+    else {
+       println!("Numero 1({}) é menor ou igual ao numero 2({})", number1, number2);
+   }
 }
